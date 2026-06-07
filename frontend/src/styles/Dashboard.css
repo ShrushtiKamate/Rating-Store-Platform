@@ -1,0 +1,87 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f3f0ff;
+}
+
+.dashboard-container{
+    max-width:1000px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.dashboard-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:30px;
+}
+
+.dashboard-title{
+    color:#5b21b6;
+}
+
+.nav-buttons button{
+    margin-right:10px;
+}
+
+.card-container{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    min-width:220px;
+}
+
+.card h3{
+    color:#5b21b6;
+}
+
+button{
+    background:#7c3aed;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#6d28d9;
+}
+
+.store-card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.store-card h3{
+    color:#5b21b6;
+    margin-top:0;
+}
+
+.store-card input{
+    width:100%;
+    padding:10px;
+    border:1px solid #d1d5db;
+    border-radius:8px;
+    margin-top:10px;
+    box-sizing:border-box;
+}
+
+.store-actions{
+    margin-top:15px;
+}
+
+.store-actions button{
+    margin-right:10px;
+}
